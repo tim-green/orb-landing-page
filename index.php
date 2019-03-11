@@ -4,7 +4,7 @@
   <title>Orb - App Landing Page</title>
   <meta charset="utf-8">
   <meta name="description" content="">
-  <meta name="robots" content="index, follow, all" />
+  <meta name="robots" content="noindex, nofollow, all" />
   <meta name="author" content="Tim Green">
   <meta name="publisher" content="Tim Green">
   <meta name="google" content="notranslate" />
@@ -52,10 +52,10 @@
             <ul>
               <li><a href="#section1">Home</a></li>
               <li><a href="#section2">Features</a></li>
-              <li><a href="#section3">Work Process</a></li>
+              <li><a href="#section3">Process</a></li>
               <li><a href="#section4">Testimonials</a></li>
               <li><a href="#section5">Download</a></li>
-              <li><a href="#section6">Contact</a></li>
+              <li><a href="#section6">Contact Us</a></li>
             </ul>
           </nav>
           <a href="javascript:void(0);" onclick="$('.orb-navigation').slideToggle();" class="orb-toggle"><span class="toggle-separator"></span></a>
