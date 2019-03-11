@@ -1,5 +1,5 @@
 
-/*==================== Responsive CSS ====================*/
+/* Responsive CSS*/
 @media screen and (min-width:1270px) {
   .container {
     padding: 0;
@@ -77,8 +77,8 @@
   .orb-navigation ul li a {
     display: block;
     padding: 10px 0;
-    color: ##363636 !important;
-    border-bottom: 1px solid #eeeeee;
+    color: #363636 !important;
+    border-bottom: 1px solid #1d1d1d;
   }
   .orb-navigation ul li a:after {
     display: none;
@@ -326,6 +326,9 @@
   }
   .work-item .orb-icon img {
     width: 60px;
+  }
+  .work-step{
+    right: -45px;
   }
 }
 
