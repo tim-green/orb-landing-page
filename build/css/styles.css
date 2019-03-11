@@ -121,6 +121,13 @@ img {
   -ms-user-select: none;
   user-select: none;
 }
+
+.orb-caption{
+  background: linear-gradient(90deg,#c9373f 0,#930f5b);
+  color: #fff;
+  padding: 1.0% 2%;
+  border-radius: 19px;
+}
 iframe {
   display: block;
   width: 100%;
@@ -202,6 +209,7 @@ audio, canvas, progress, video {
   color: #ffffff !important;
   opacity: 0.8;
 }
+
 
 /* 04 Gotop */
 .orb-gotop {
@@ -506,9 +514,9 @@ audio, canvas, progress, video {
 }
 .orb-toggle {
   display: none;
-  vertical-align: middle;
+  vertical-align: top;
   width: 20px;
-  height: 14px;
+  height: 30px;
 }
 .orb-toggle .toggle-separator {
   display: block;
@@ -897,7 +905,7 @@ audio, canvas, progress, video {
   left: 0;
   width: 12px;
   height: 12px;
-  background: #28bdab;
+  background: #00db78;
   content: "";
   -webkit-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -905,10 +913,10 @@ audio, canvas, progress, video {
   z-index: 1;
 }
 .support-info ul li:nth-child(2n):after {
-  background: #f9a248;
+  background: #f7bf18;
 }
 .support-info ul li:nth-child(3n):after {
-  background: #9dce68;
+  background: #d33131;
 }
 
 /* 21 Download */
@@ -987,6 +995,14 @@ audio, canvas, progress, video {
   border-color: #cacaca;
 }
 
+.form-control:focus {
+    color: #1d1d1d;
+    background-color: #fff;
+    border-color: #930f5b !important;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(147,15,91,);
+}
+
 /* 23 Contact */
 .orb-contact {
   padding: 55px 0;
@@ -1059,7 +1075,7 @@ audio, canvas, progress, video {
   width: 0;
 }
 
-/*==================== Responsive CSS ====================*/
+/* Responsive CSS*/
 @media screen and (min-width:1270px) {
   .container {
     padding: 0;
@@ -1137,8 +1153,8 @@ audio, canvas, progress, video {
   .orb-navigation ul li a {
     display: block;
     padding: 10px 0;
-    color: ##363636 !important;
-    border-bottom: 1px solid #eeeeee;
+    color: #363636 !important;
+    border-bottom: 1px solid #1d1d1d;
   }
   .orb-navigation ul li a:after {
     display: none;
@@ -1386,6 +1402,9 @@ audio, canvas, progress, video {
   }
   .work-item .orb-icon img {
     width: 60px;
+  }
+  .work-step{
+    right: -45px;
   }
 }
 
